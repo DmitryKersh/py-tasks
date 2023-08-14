@@ -2,7 +2,7 @@ import unittest
 import main
 
 
-class TestModule2(unittest.TestCase):
+class TestModule3(unittest.TestCase):
     def test_task_1(self):
         self.assertEqual("PRIME", main.task_1(313))
         self.assertEqual("1", main.task_1(1))
