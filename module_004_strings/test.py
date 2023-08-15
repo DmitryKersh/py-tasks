@@ -2,7 +2,7 @@ import unittest
 import main
 
 
-class TestModule2(unittest.TestCase):
+class TestModule4(unittest.TestCase):
     def test_task_1(self):
         self.assertEqual(35, main.task_1("inIg"))
         self.assertEqual(0, main.task_1(""))
