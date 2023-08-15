@@ -1,3 +1,4 @@
+# will return number of func() calls for which func() == expected
 def random_test(expected, times: int):
     def random_test_decorator(func):
         def _wrapper(*args, **kwargs):
