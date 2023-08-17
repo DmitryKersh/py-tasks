@@ -279,3 +279,87 @@ class TestModule4(unittest.TestCase):
              'Ofb MhD uL'], main.task_4(
                 "  qxbg PEQ FHWRsOhArhepjWqEcZWRinf PeHSqUkN NW xytNXoqQvHKvdJvyqHmtvLIevNpvdqBXHct SOfb MhD uL",
                 ['w', 'X', 'P', 'U', 'S']))
+
+    def test_task_5(self):
+        self.assertEqual(
+            "AaBdJKKmoQStVvWXx adfghiQqRRVvy GiM fgIJKlPvVwxz bchjKOpSuXY T HhiJKKmmPQQRtTYZZz CeeFqTuV MMMOWxX",
+            main.task_5(
+                "QSmKJoBAXKWtVvdxa yRVQfivqdhgaR iGM vxJVIgflKzPw XKhcYubjpSO T ZimJmtQHQYRhZKKPzT ueTeCFVq OxMWMXM"))
+        self.assertEqual("aAbBCcceGgjooPUvxXyyzzZ BcDEFhIjkLOpqRtXxyYz aAacDDddfJnPpTtuVwXXxY",
+                         main.task_5("voCyUbzGazyxZcXojAcPegB cOXpELhRBIqtyxkFzjYD PXXpDTcYDndVufwtaAJxad"))
+        self.assertEqual("AAaaBCcEfFGIjklLlmQTVwXYZ bbCcgGhhHhiJLmnnpqQrTWW GhqQy hIosW",
+                         main.task_5("wBIVQCXGlTfFAkcZjALlmaYEa hgbrhiHmqnTCWcpWQhLbGJn qQGyh oWhsI"))
+        self.assertEqual("bEElmNtuVvyzZ Hkm AacdfFGmnoPqssSTwXxxzZ cCEFJjKmTV bchkOPtuxy",
+                         main.task_5("uNVzvtyEmZbEl mHk XwxPmTfqxdoAFzansZscGS KmcJVFjCTE POchutbxyk"))
+        self.assertEqual("cKWxXyy cdEJjnnOqtVyyYz bBCeeoqu bBceemmooqqrtUwwXXz AcDeRt GkmquX",
+                         main.task_5("xyKcyWX ndVJyyYtEqjOncz CqebuBeo UmetocwoXqbrBqzweXm ADecRt kXumqG"))
+        self.assertEqual(
+            "s CDeeIpQRT bbcDefkllMmPPqqUxXyyZ EMNQsSUuX AcElnqru cdntuw aabfHhiKLlmmMorTTTTUuVYy fgMOPqwxz",
+            main.task_5(
+                "s DCpITeQeR bklqyylDMPUfxcZemqPXb XMENUsuQS nluArcqE ndcwtu TmUTiTuafbKVYyTHoaLmhMrl OMwfqPzxg"))
+        self.assertEqual("c AaCddelmnsvZ EFhIQquuVw CEw x BKTwWXy EeehkKLNPqqTTww BBDhHHijLNOoPqqrtUVvyzz p BMq  dfh",
+                         main.task_5(
+                             "c dAslevdmZaCn FuwVIQhEqu CEw x TyBKwWX ELeqheNqkTwwPKT rjqizOyVhtBzHqLvNPDoBUH p qMB  dhf"))
+        self.assertEqual("HL GT A ajmnNPPQrVVwxz cCEelqt MQQWyZ ccHTzz  gmoPrsTu",
+                         main.task_5("HL TG A QrVxnzVNjPmPwa cCltEqe QyWMQZ zTHczc  TuPgmros"))
+        self.assertEqual(
+            " aCcELLNnSxYZ AHKnoOWx DinrSTv DeILlNT BbeFJU adeffgjJjKMqr aCccCCCeffIjJLPQQqrRrSstVWXY  aAHnOP",
+            main.task_5(
+                " ZSYCLNnLaEcx oxWHKOAn vnSTriD LIeNDlT eBJFUb fgfjJdeMaqrKj IQrXCcQteRfacqjPWCrSLJCVfCYs  OanPHA"))
+        self.assertEqual("bnqRV ABhIPpSs aNwy afGio fGkmSuyy aAceEFhJLMnPpqQRVvWwxXyyZZz ",
+                         main.task_5("nqVRb PhSspIAB Nway Gofai GfyymukS WyqRZhnZyQeLEFJVzxwaXAcMPvp "))
+        self.assertEqual("tUXX CfFghq cDEFGHiJNOPqsvw cJLlpt DEjptTWwZzZ BCcdEeFFFGgGGhhiIjjMMnnpSsTTuuVVvx hNsVw ",
+                         main.task_5(
+                             "XtXU qfhCFg OwGvEcHDqJPsFiN LcpltJ DZEzZjWtwpT hpGVSgunTjhCBVijEFTnGxdMeMcsIFuFGv sVhwN "))
+        self.assertEqual(
+            " qx Lt cCEeGHjjklNOPqSTy eP U  bdDfGhInNNppqRTxy dEEFkKOPpqrSSuWY X AccDeFFGghIJKnsy AbeFhiLPSXY",
+            main.task_5(
+                " xq tL ycHlkGEeCNTjPjSqO Pe U  fTydnRINGDNpxbhqp SFdPOEpukKEYWSqr X cGgAchesKFyDFJIn YSbeXhFAPiL"))
+        self.assertEqual("AKms AbBDDeeEHHHHIillmmNprsttuWxXz chHjKKlQqtUW ABCcehLlLOVXxXxZ",
+                         main.task_5("mAsK HemxHuNItrbetEplHlBisHmAzXDWD QKjlhUHWqcKt XxXOCeLZAhlBcVxL"))
+        self.assertEqual("BJrRu HJrsuVZ BegJnOOpTZ aAFimoOoqstUUvXz ggkRy RuW Lt cDdiNOpPssuyz hnSuZ EeFIiKlNnPSy H",
+                         main.task_5(
+                             "rJuRB HJVusZr ZpOeTgBJOn UXvaUqoisOomFztA kygRg uWR tL zNuisOpyDsPcd hunZS NnEeSIyFPKli H"))
+        self.assertEqual("ACGgijLpQrtuxZ ennz  DFjKmMpTVxy ABBccdddeeeeFFfGHJjjJJlNOpqqssTUUxz IY AXY CffIJJpRswwxZ",
+                         main.task_5(
+                             "uAQrGZigtLpCjx eznn  mFDxjMTpyKV JeUxFFfdNqjsdBeslpOGeTeAjJHccJzBdqU IY YXA IxZJfpfJwCswR"))
+        self.assertEqual("abefillnNnoqTUWWZ bePS ACIkLmOovWY ADRRyZ bfhIlqTUWY BCEffIjKmOoOQrRSt hjpsw",
+                         main.task_5("iZUfqWnNTeallonWb PeSb OYvoCWLAmIk yZDRAR IlWYqhbUTf EmrSKOofOfRQtBCjI swhpj"))
+        self.assertEqual(
+            "EgGHHquu aCeFFKmOy r tu gGiLmMnPttuUWx ALO bBBjLMoPVy AcDeFgjpQtvwY  BEeHIIjklPsuU cDEeegnOQSx",
+            main.task_5(
+                "gEuHHGuq FCeOymFaK r tu mPuMUinxtLgtGW OAL jbyBBPVoLM AgQweFvYDctjp  uklHIsIEBeUjP OngEeSQcxDe"))
+        self.assertEqual(" BBBcDDdDEhKLLMmMnnoPPRStwyyZZ  bDegiImOooPqqrrsSTUvVWYZ  Ww BIms dDehhKmT DGMOprtU",
+                         main.task_5(
+                             " BLBnZPZPDcKyMRDmESMdyBDhowtnL  PsqYrZOrgvboiWVITmqUDSoe  Ww sBIm eKmhdDhT rDtGUOMp"))
+        self.assertEqual("ly GhkW hlsT  bLosW CfFjkRRy fHIkMnqqruz  AabBcDfiIKKOrVXz annpQWxx",
+                         main.task_5("ly hGkW Tlhs  sLobW RCfkjyFR qHzqnrfuIMk  AbKiaIzDKOrXcfBV xQnxaWnp"))
+        self.assertEqual("GH  LrS cJpwx GijLlnR aBbCceGghiJNPSwxxyz dGjMoRuv CcCdFIkmnQRSsuYy giJjLPpPstwY BEmqy",
+                         main.task_5(
+                             "GH  rLS xwpJc GnRLjil BSaGehyJgCbPwxicxNz GudjoMvR SmFndCkQuIcCYsRy PgJwtpLsjYiP EmyqB"))
+        self.assertEqual("FGgIilRVVWYyyZ bIptyz  Cnv Aj AdEmP CkqSY AggGiJmoPppssuUWx EFgGJlmMNqrUvWxYYz Mr",
+                         main.task_5(
+                             "lIWYGyFZgVViyR zbIypt  vCn jA EdPmA SYqCk ouWsxgUPgiJpGAmsp EmlrgFxMUqJYzWGvYN rM"))
+        self.assertEqual("imv OQ defjLlmPpStyyzzz io fiJnoQVWy hIIKlZ BGHjllMMnoPQQuuVw y",
+                         main.task_5("vim OQ PmtSzpdeLzljfyzy oi VoJfWnyQi lIKhZI GQnljMMuwoQPVBluH y"))
+        self.assertEqual(
+            "fhmMOz GPrU dox mP EjJjjKLmPprRwx aAbBbCEEghhIKLmoOPRRrSTwWWWWxxyz aaBdDGGHHhiijkLMnPPSSVWyyZZ   h",
+            main.task_5(
+                "zhmOfM UGPr dox Pm PjrxLKJjEmpwRj bSBERxyPzwRrWxKoOmThWWgbLIWEhaCA ZyiadkDPGSaMLHWHyjBZhVGSniP   h"))
+        self.assertEqual("ImNnPSTTv x fhU gIllLQrruwZ CR  g  C b EEggqWwXZ LX Gz",
+                         main.task_5("TPNnITmvS x Ufh uwIQgrllrZL RC  g  C b qXZWEwEgg LX Gz"))
+        self.assertEqual("aAbbbcDefFHIiJKLLoOpPRUUwwxZ w aBBBbcegiijJjLmMmNnOoPpQqQQQRSTTVvvY",
+                         main.task_5("IwJpRfUbPocDaHebFZUAKxLibOLw w RNTQVvBLjiPpaTqQQJnYBmvOMQBoecjSbigm"))
+        self.assertEqual("AeILQQ FPqY bD F aHjV AAaBcEjnsUW m BBbcdDEfFgGGhiJjJKkkMmNOpPpRRvWwwXZ",
+                         main.task_5("eAQILQ PFqY Db F VaHj WBjcAEUAans m RpJMZfvNXBmOKRPgBcbWGFEdGwpjkkwhiDJ"))
+        self.assertEqual("bEFfFkPSsTvvxY jlMnpRStv Elo BefFIklnPXY ahijjouvvW aBddIQuW Jm cGHo",
+                         main.task_5("SkvFEfFxTYsPvb tMSjnvlRp lEo nXfBkYIelPF vjvoujhWia uWIBQdda Jm ocHG"))
+        self.assertEqual(" bDgGHiJjjtV  s rTV dHNNQrvwX ru myz jOS BG  bLmqs aKqU s acJmRstUv A",
+                         main.task_5(" JtgHiGDjjVb  s rVT HQvrXwdNN ru zym OjS GB  mLbqs qaKU s scJRtUmav A"))
+        self.assertEqual("EGPU cCfGNY bWY aCDEHhhKmmNoOpqrSuxy wz  EHjMp ddFggHKKLLMNoopqTVvWY",
+                         main.task_5("PUEG YGcCfN YbW HmhDuoSCxyahOrEqNpmK zw  pjMEH VqYLKdMoFLNpgvKgTdHWo"))
+        self.assertEqual(
+            "BiiKoopRRRTUwwZ ACDFLNRTUuww ghjku adeFhHIKoORruUuVXXXy beGgT  aAFiKKKLNpqQRRTuvVwWXyZ dHkTv BQUw bE",
+            main.task_5(
+                "piTRoUiwZBRwoRK LUFDuARCwTwN ujhkg oFuXVUhXXeaRurIOyKdH eTbGg  KaivKRNwFpyqWXVLAKuZTRQ dHvTk UBwQ bE"))
+
