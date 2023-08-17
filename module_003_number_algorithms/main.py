@@ -8,10 +8,18 @@
 def task_1(n: int) -> str:
     return ''
 
+
 # Найти НОК и НОД 2 чисел (используя, что НОД(x,y) = НОД(x-y,y) если x > y, и НОД(х,х) = х). Предполагаем, что оба числа > 1
 def task_2(x: int, y: int) -> int:
     return 0
 
+
 # Решить квадратное уравнение по данным a, b, c.
-def task_3(a:int, b:int, c:int) -> list[float]:
+def task_3(a: int, b: int, c: int) -> list[float]:
+    return []
+
+
+# Даны 2 многочлена набором коэффициентов ([1, 0, -3, 10] = 10x^3 - 3x^2 + 1). Старший коэффииент не 0
+# Перемножить их и результат представить так же
+def task_4(p: list[int], q: list[int]) -> list[int]:
     return []
