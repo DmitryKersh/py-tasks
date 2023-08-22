@@ -28,3 +28,7 @@ def task_4(s: str, delims: list[str]) -> list[str]:
 # Заглавные буквы СООТЕТСТВЕННО РАВНЫ строчным по алфавиту, и их порядок надо сохранить! ("Bbac cAca bBbB" -> "aBbc Aacc bBbB")
 def task_5(s:str) -> str:
     return ''
+
+# [HARD] Дано число от 0 до 10^12. Вернуть строковую запись числа. Примеры: https://ciox.ru/amount-in-words-in-english
+def task_6(n:int) -> str:
+    return ''

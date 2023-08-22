@@ -363,3 +363,91 @@ class TestModule4(unittest.TestCase):
             main.task_5(
                 "piTRoUiwZBRwoRK LUFDuARCwTwN ujhkg oFuXVUhXXeaRurIOyKdH eTbGg  KaivKRNwFpyqWXVLAKuZTRQ dHvTk UBwQ bE"))
 
+    def test_task_6(self):
+        self.assertEqual(
+            "two hundred and eighty-two million, seven hundred and seventy-five thousand, seven hundred and forty-six",
+            main.task_6(282775746))
+        self.assertEqual(
+            "nine hundred and twenty-three million, eight hundred eight thousand, eight hundred and ninety-one",
+            main.task_6(923808891))
+        self.assertEqual("two hundred thirteen million, eight hundred and twenty-three thousand, one hundred thirty",
+                         main.task_6(213823130))
+        self.assertEqual("four hundred and fifty-eight million, five hundred and sixty-eight thousand and twenty",
+                         main.task_6(458568020))
+        self.assertEqual(
+            "eight hundred and seventy-eight million, six hundred seventeen thousand, five hundred and thirty-three",
+            main.task_6(878617533))
+        self.assertEqual(
+            "two hundred two million, seven hundred and twenty-four thousand, seven hundred and seventy-nine",
+            main.task_6(202724779))
+        self.assertEqual("two hundred and thirty-three million, seven hundred seven thousand, nine hundred thirty",
+                         main.task_6(233707930))
+        self.assertEqual(
+            "nine hundred and twenty-four million, one hundred and eighty-seven thousand, eight hundred and forty-five",
+            main.task_6(924187845))
+        self.assertEqual("five hundred four million, two hundred and eighty-six thousand, two hundred and fifty-five",
+                         main.task_6(504286255))
+        self.assertEqual("seven hundred and fifty-seven million, fifty-nine thousand, two hundred and sixty-three",
+                         main.task_6(757059263))
+        self.assertEqual("seven hundred and seventy-five million, six hundred sixty thousand, eight hundred fifteen",
+                         main.task_6(775660815))
+        self.assertEqual(
+            "two hundred and eighty-nine million, four hundred and thirty-three thousand, two hundred and seventy-two",
+            main.task_6(289433272))
+        self.assertEqual("one hundred ninety million, seven hundred nine thousand, seven hundred and seventy-five",
+                         main.task_6(190709775))
+        self.assertEqual("four hundred and forty-nine million, four hundred and eighty-four thousand and forty-six",
+                         main.task_6(449484046))
+        self.assertEqual("three hundred and ninety-four million, seven hundred and sixty-three thousand and fifty-two",
+                         main.task_6(394763052))
+        self.assertEqual("five hundred eighty million, two hundred and fifty-one thousand, four hundred five",
+                         main.task_6(580251405))
+        self.assertEqual(
+            "eight hundred and sixty-two million, three hundred and sixty-four thousand, four hundred five",
+            main.task_6(862364405))
+        self.assertEqual(
+            "nine hundred five million, seven hundred and seventy-nine thousand, six hundred and ninety-three",
+            main.task_6(905779693))
+        self.assertEqual(
+            "five hundred and sixty-four million, one hundred and twenty-seven thousand, seven hundred and ninety-nine",
+            main.task_6(564127799))
+        self.assertEqual(
+            "eight hundred three million, eight hundred and twenty-four thousand, six hundred and eighty-two",
+            main.task_6(803824682))
+        self.assertEqual("six hundred sixty million, one hundred and forty-two thousand, five hundred and forty-three",
+                         main.task_6(660142543))
+        self.assertEqual("one hundred and ninety-three million, four hundred and ninety-seven thousand and sixty-eight",
+                         main.task_6(193497068))
+        self.assertEqual("one hundred and ninety-six million, nine hundred eight thousand, four hundred seven",
+                         main.task_6(196908407))
+        self.assertEqual(
+            "four hundred and twenty-three million, two hundred and eighty-one thousand, eight hundred and thirty-four",
+            main.task_6(423281834))
+        self.assertEqual("thirty-three million, three hundred and eighty-four thousand and forty",
+                         main.task_6(33384040))
+        self.assertEqual(
+            "eight hundred and sixty-five million, six hundred and fifty-seven thousand, six hundred and seventy-six",
+            main.task_6(865657676))
+        self.assertEqual(
+            "five hundred and eighty-five million, four hundred and fifty-nine thousand, five hundred five",
+            main.task_6(585459505))
+        self.assertEqual(
+            "nine hundred and twenty-four million, two hundred and seventy-four thousand, six hundred and sixty-three",
+            main.task_6(924274663))
+        self.assertEqual(
+            "eight hundred and seventy-nine million, three hundred seventy thousand, six hundred and eighty-six",
+            main.task_6(879370686))
+        self.assertEqual("one hundred three million, fifty-seven thousand, three hundred and forty-one",
+                         main.task_6(103057341))
+        self.assertEqual("zero", main.task_6(0))
+        self.assertEqual("one thousand", main.task_6(1000))
+        self.assertEqual("one million", main.task_6(1000000))
+        self.assertEqual("two million and nine", main.task_6(2000009))
+        self.assertEqual("twelve million, twelve thousand and one", main.task_6(12012001))
+        self.assertEqual("five hundred billion, three hundred twelve", main.task_6(500000000312))
+        self.assertEqual("five hundred billion, three hundred twelve thousand", main.task_6(500000312000))
+        self.assertEqual("five hundred billion, one hundred and thirty-two million", main.task_6(500132000000))
+        self.assertEqual("five hundred billion, one million, two thousand and three", main.task_6(500001002003))
+        self.assertEqual(
+            "one hundred and twenty-three billion, four hundred and fifty-six million, seven hundred and eighty-nine thousand and twelve",
+            main.task_6(123456789012))
