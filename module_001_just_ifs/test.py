@@ -104,8 +104,8 @@ class TestModule1(unittest.TestCase):
         self.assertEqual("NO", main.task_5(1900))
         self.assertEqual("YES", main.task_5(1600))
         self.assertEqual("YES", main.task_5(2400))
-        self.assertEqual("YES", main.task_5(1300))
-        self.assertEqual("YES", main.task_5(1100))
+        self.assertEqual("NO", main.task_5(1300))
+        self.assertEqual("NO", main.task_5(1100))
 
         self.assertEqual("YES", main.task_5(2476))
         self.assertEqual("NO", main.task_5(19))
