@@ -48,3 +48,15 @@ def task_4(a: int) -> int:
         result = result * i
         i = i + 1
     return result
+
+# 5 Посчитать сумму целых чисел между a и b включительно
+def task_5(a: int, b: int) -> int:
+    return 0
+
+# 6 Посчитать площадь поверхности параллелепипеда со сторонами a, b, c. Если хоть одно число <= 0, вернуть 0
+def task_6(a: int, b: int, c: int) -> int:
+    return 0
+
+# 7 Проверить существование треугольника со сторонами a, b, c (неравенство треугольника)
+def task_7(a: int, b: int, c: int) -> bool:
+    return False
