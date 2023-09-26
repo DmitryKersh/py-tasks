@@ -13,7 +13,14 @@ def task_1(a: int, b: int) -> int:
 
 # 2  Дано целое число. Если оно делится на 3, вернуть 'fizz', если на 5 - 'buzz', если и на 3 и на 5 - 'fizzbuzz' иначе - пустую строку
 def task_2(a: int) -> str:
-    return ''
+    if a % 3 == 0:
+        return 'fizz'
+    if a % 5 == 0:
+        return 'buzz'
+    if a % 3 == 0 and a % 5 == 0:
+        return 'fizzbuzz'
+    else:
+        return ''
 
 
 # 3 Даны длины двух катетов треугольника. Посчитать гипотенузу. Если хоть одно из чисел <= 0, вернуть -1
