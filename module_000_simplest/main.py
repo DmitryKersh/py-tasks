@@ -4,47 +4,23 @@
     Встроенные функции min/max использоавть нельзя (но можно написать свои)
 '''
 
-import math
+
 # 1  Даны 2 целых числа. Если одно из них делится на другое, вернуть их сумму, иначе - произведение
 # Ноль делится на любое число кроме нуля
 def task_1(a: int, b: int) -> int:
-    if a == 0 or b == 0:
-        return a + b
-    if a % b == 0 or b % a == 0:
-        return a + b
-    else:
-        return a * b
+    return 0
 
 
 # 2  Дано целое число. Если оно делится на 3, вернуть 'fizz', если на 5 - 'buzz', если и на 3 и на 5 - 'fizzbuzz' иначе - пустую строку
 def task_2(a: int) -> str:
-    if a % 3 == 0 and a % 5 != 0:
-        return 'fizz'
-    if a % 5 == 0 and a % 3 != 0:
-        return 'buzz'
-    if a % 3 == 0 and a % 5 == 0:
-        return 'fizzbuzz'
-    else:
-        return ''
+    return ''
 
 
 # 3 Даны длины двух катетов треугольника. Посчитать гипотенузу. Если хоть одно из чисел <= 0, вернуть -1
 def task_3(a: float, b: float) -> float:
-    if a <= 0 or b <= 0:
-        return -1
-    c = math.sqrt(a*a + b*b)
-    return c
+    return 0
 
 
 # 4 Посчитать факториал числа. Если число < 0, вернуть -1
 def task_4(a: int) -> int:
-    result = 1
-    if a < 0:
-        return -1
-    if a == 0:
-        return 1
-    i = 1
-    while i <= a:
-        result = result * i
-        i = i + 1
-    return result
+    return 0
