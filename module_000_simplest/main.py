@@ -38,7 +38,6 @@ def task_3(a: float, b: float) -> float:
 
 # 4 Посчитать факториал числа. Если число < 0, вернуть -1
 def task_4(a: int) -> int:
-<<<<<<<<< Temporary merge branch 1
     result = 1
     if a < 0:
         return -1
@@ -49,18 +48,23 @@ def task_4(a: int) -> int:
         result = result * i
         i = i + 1
     return result
-=========
-    return 0
 
 # 5 Посчитать сумму целых чисел между a и b включительно
 def task_5(a: int, b: int) -> int:
-    return 0
+    number1 = a
+    number2 = b
+    return sum(range(number1 + 1, number2))
+
 
 # 6 Посчитать площадь поверхности параллелепипеда со сторонами a, b, c. Если хоть одно число <= 0, вернуть 0
 def task_6(a: int, b: int, c: int) -> int:
-    return 0
+    s = 2*(a*b+b*c+c*a)
+    if a <= 0 or b <= 0 or c <= 0:
+        return 0
 
 # 7 Проверить существование треугольника со сторонами a, b, c (неравенство треугольника)
 def task_7(a: int, b: int, c: int) -> bool:
-    return False
->>>>>>>>> Temporary merge branch 2
+    if a + b > c:
+        return "False"
+    if a + b <= c:
+        return "true"
