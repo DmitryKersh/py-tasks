@@ -4,6 +4,7 @@
     Встроенные функции min/max использоавть нельзя (но можно написать свои)
 '''
 
+
 import math
 # 1  Даны 2 целых числа. Если одно из них делится на другое, вернуть их сумму, иначе - произведение
 # Ноль делится на любое число кроме нуля
@@ -48,23 +49,25 @@ def task_4(a: int) -> int:
         result = result * i
         i = i + 1
     return result
-
 # 5 Посчитать сумму целых чисел между a и b включительно
 def task_5(a: int, b: int) -> int:
-    number1 = a
-    number2 = b
-    return sum(range(number1 + 1, number2))
-
+    if a > b:
+        number1 = b
+        number2 = a
+    else:
+        number1 = a
+        number2 = b
+    return sum(range(number1, number2 + 1))
 
 # 6 Посчитать площадь поверхности параллелепипеда со сторонами a, b, c. Если хоть одно число <= 0, вернуть 0
 def task_6(a: int, b: int, c: int) -> int:
-    s = 2*(a*b+b*c+c*a)
+    rs = 2*(a*b + b*c + c*a)
     if a <= 0 or b <= 0 or c <= 0:
         return 0
+    return rs
 
 # 7 Проверить существование треугольника со сторонами a, b, c (неравенство треугольника)
 def task_7(a: int, b: int, c: int) -> bool:
-    if a + b > c:
-        return "False"
-    if a + b <= c:
-        return "true"
+    if a > 0 and b > 0 and c > 0 and (a + b) > c and (b + c) > a and (a + c) > b:
+        return True
+    return False
