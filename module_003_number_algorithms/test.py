@@ -11,6 +11,7 @@ class TestModule3(unittest.TestCase):
         self.assertEqual("ERROR", main.task_1(-22))
         self.assertEqual("COMPOSITE", main.task_1(1595))
         self.assertEqual("COMPOSITE", main.task_1(72))
+        self.assertEqual("PRIME",main.task_1(2))
         self.assertEqual("COMPOSITE", main.task_1(1843))
         self.assertEqual("COMPOSITE", main.task_1(2678))
         self.assertEqual("COMPOSITE", main.task_1(3848))
