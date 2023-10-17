@@ -19,8 +19,18 @@ def task_1(n: int) -> str:
 
 #2 Найти НОК и НОД 2 чисел (используя, что НОД(x,y) = НОД(x-y,y) если x > y, и НОД(х,х) = х). Предполагаем, что оба числа > 1
 def task_2(x: int, y: int) -> int:
-    return 0
-
+    if x > y:
+        x1 = x
+        x2 = y
+    else:
+        x1 = y
+        x2 = x
+    remainder = x1 % x2
+    while remainder != 0:
+        x1 = x2
+        x2 = remainder
+        remainder = x1 % x2
+    return x2
 
 #3 Решить квадратное уравнение по данным a, b, c.
 def task_3(a: int, b: int, c: int) -> list[float]:
